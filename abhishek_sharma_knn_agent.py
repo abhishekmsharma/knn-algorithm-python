@@ -1,7 +1,5 @@
 '''
 Developer: Abhishek Manoj Sharma
-Class: CS 256 Section 2
-Assignment 1: (KNN Algorithm)
 Date: September 9, 2017
 Class: Agent
 '''
