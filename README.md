@@ -1,2 +1,31 @@
-# knn-algorithm-python
-This repository contains code for the KNN implementation I developed for KEEL (http://sci2s.ugr.es/keel/category.php?cat=clas) dataset using Python for my CS256 Artificial Intelligence course.
+Implementation of k-Nearest Neighbors (kNN) algorithm in Python]
+
+**Setting up Python environment**
+==================================
+The kNN algorithm is entirely built using in-built Python functions, however, the program uses matplotlib for displaying graphs and following are the steps to set that up.\
+\
+Open Terminal and run the following commands:\
+**pip install matplotlib** *(This command installs matplotlib)*\
+**sudo apt-get install python-tk** *(This command installs the python-tk package)*\
+
+
+**How to run**
+===============
+Kindly execute the program using the following steps:\
+\
+1\. Open terminal and navigate to the path containing the 4 Python (.py)
+files mentioned in the previous section. \
+\
+2\. Execute the following command:\
+**python abhishek\_sharma\_knn.py \<directory\_name\> \<value\_of\_k\>**\
+\
+*\<directory\_name\>: Specifies the name of directory containing the
+training and testing datasets.\
+\<value\_of\_k\>: Specifies the value of k*\
+\
+**Note:** For any value of k, the program measures the accuracy for all
+odd values of k from 1 to k.\
+For instance, if k=9, the program will display the accuracy for
+k=1,3,5,7,9.\
+\
+Example command: **python abhishek\_sharma\_knn.py heart 11**
