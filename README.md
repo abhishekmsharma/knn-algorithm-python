@@ -1,4 +1,4 @@
-Implementation of k-Nearest Neighbors (kNN) algorithm in Python]
+Implementation of k-Nearest Neighbors (kNN) algorithm in Python
 
 **Setting up Python environment**
 ==================================
